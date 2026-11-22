@@ -1,0 +1,45 @@
+{
+  "config": {
+    "appName": "PulseUtility",
+    "packageId": "com.sharedroid.pulseutility",
+    "version": "1.0.0",
+    "tagline": "Offline-ready Android toolkit with direct creator payout split",
+    "description": "A lightweight Android utility app where users unlock or run sessions with transparent crypto revenue sharing directly to the creator.",
+    "downloadModel": "supporter_pwyw",
+    "downloadPriceUsd": 4.99,
+    "runShareUsd": 0.25,
+    "creatorSharePercent": 85,
+    "revenueMode": "hybrid",
+    "wallets": [
+      {
+        "id": "w-btc-primary",
+        "chain": "BTC",
+        "network": "Bitcoin Mainnet (SegWit)",
+        "label": "Primary BTC Vault",
+        "address": "",
+        "splitPercent": 60,
+        "enabled": true
+      },
+      {
+        "id": "w-eth-primary",
+        "chain": "ETH",
+        "network": "Ethereum / Base ERC-20",
+        "label": "ETH Creator Wallet",
+        "address": "",
+        "splitPercent": 25,
+        "enabled": true
+      },
+      {
+        "id": "w-sol-primary",
+        "chain": "SOL",
+        "network": "Solana Mainnet",
+        "label": "SOL Fast Payout",
+        "address": "",
+        "splitPercent": 15,
+        "enabled": true
+      }
+    ],
+    "updatedAt": "2026-11-22T17:13:54.944Z"
+  },
+  "events": []
+}
